@@ -1,0 +1,22 @@
+{
+    "name": "apisnetworks/apnscp-apigen",
+    "description": "apigen fixes for apnscp document generation",
+    "license": "MIT License",
+    "version": "0.1",
+    "authors": [
+        {
+            "name": "Matt Saladna",
+            "email": "matt@apisnetworks.com"
+        }
+    ],
+    "require": {
+      "php": "^7.1",
+      "nikic/php-parser": "^3.1.1"
+    },
+    "psr-0": { "": "src/" },
+    "autoload": {
+      "files": [
+        ["src/Name.php", "src/apnscpbridge.php"]
+      ]
+    }
+}
