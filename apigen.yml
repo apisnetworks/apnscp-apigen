@@ -1,0 +1,7 @@
+parameters:
+    visbilityLevels: [public]
+    title: "apnscp Modules"
+    baseUrl: "http://api.apnscp.com"
+    overwrite: true
+    destination: "/var/www/html/api-docs"
+    source: /usr/local/apnscp/lib/modules
